@@ -1,0 +1,24 @@
+{
+  "items": [
+    {
+      "id": "existing-older",
+      "isDraft": false,
+      "isArchived": false,
+      "fieldData": {
+        "name": "Sam Older",
+        "slug": "sam-older-older",
+        "rating": 1,
+        "review-text": "This text should stay.",
+        "review-date": "2024-01-02T00:00:00.000Z",
+        "google-review-id": "places/ChIJtestPlace/reviews/older",
+        "google-listing-link": "https://www.google.com/maps/search/?api=1&query_place_id=ChIJtestPlace",
+        "featured": true
+      }
+    }
+  ],
+  "pagination": {
+    "limit": 100,
+    "offset": 0,
+    "total": 1
+  }
+}

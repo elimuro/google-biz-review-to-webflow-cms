@@ -1,0 +1,14 @@
+# Daily Google review sync. Cron is midnight UTC.
+# Scheduled functions run only on published production deploys.
+[build]
+  publish = "public"
+
+[build.environment]
+  NODE_VERSION = "20"
+
+[functions]
+  directory = "netlify/functions"
+  node_bundler = "esbuild"
+
+[functions."sync-reviews"]
+  schedule = "0 0 * * *"
