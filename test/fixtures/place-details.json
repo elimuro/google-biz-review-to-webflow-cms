@@ -1,0 +1,39 @@
+{
+  "rating": 4.8,
+  "userRatingCount": 42,
+  "reviews": [
+    {
+      "name": "places/ChIJtestPlace/reviews/older",
+      "relativePublishTimeDescription": "a year ago",
+      "rating": 4,
+      "text": {
+        "text": "Older review text",
+        "languageCode": "en"
+      },
+      "originalText": {
+        "text": "Older review text",
+        "languageCode": "en"
+      },
+      "authorAttribution": {
+        "displayName": "Sam Older",
+        "uri": "https://maps.google.com/authors/sam"
+      },
+      "publishTime": "2024-01-02T00:00:00Z",
+      "googleMapsUri": "https://maps.google.com/?cid=review-older"
+    },
+    {
+      "name": "places/ChIJtestPlace/reviews/newer",
+      "relativePublishTimeDescription": "a month ago",
+      "rating": 5,
+      "text": {
+        "text": "Newer review text",
+        "languageCode": "en"
+      },
+      "authorAttribution": {
+        "displayName": "Pat Newer"
+      },
+      "publishTime": "2025-06-01T15:04:05Z",
+      "googleMapsUri": "https://maps.google.com/?cid=review-newer"
+    }
+  ]
+}
